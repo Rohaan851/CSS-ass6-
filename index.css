@@ -1,0 +1,616 @@
+body {
+    margin: 0%;
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(fonts/Poppins.zip);
+}
+
+.header {
+    font-family: "Poppins";
+    background: #FAFAFA;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 150px;
+    padding: 0px 30px;
+    margin-top: 30px;
+}
+
+.logo img {
+    width: 100px;
+    height: 33px;
+}
+
+.list {
+    background: #FEFEFF;
+    border-radius: 50px;
+    height: 45px;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+.list ul {
+    list-style: none;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.list li {
+    margin-inline: 15px;
+    padding-top: 9px;
+}
+
+.button button {
+    height: 45px;
+    border-radius: 50px;
+}
+
+.one {
+    border: none;
+    background: #FAFAFA;
+    color: black;
+    padding-right: 40px;
+}
+
+.two {
+    width: 130px;
+    background-color: white;
+    border: 1px solid #BEBEBE;
+}
+
+.navbar-icon {
+    display: none;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+/* .navbar-icon i{
+    border: 2px solid #090909e5;
+    padding: 3px;
+} */
+/* .header-1{
+    height: 400px;
+} */
+.crew-1 {
+    font-family: "Poppins";
+    height: 540px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%) !important;
+}
+
+.img-1 {
+    /* height:500px; */
+    /* padding: 0%; */
+    position: relative;
+}
+
+.img-1 img {
+    width: 90%;
+    /* height: 100%; */
+    /* float: right; */
+    /* padding-left: 0px; */
+    /* width: 100%; */
+    position: absolute;
+    right: 0px;
+}
+
+.text {
+    padding: 0%;
+    padding-left: 20px;
+    margin: 0%;
+    margin-top: 50px;
+}
+
+.text h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    margin: 0%;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.text h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    margin: 0%;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.input {
+    position: relative;
+}
+
+.but button {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    margin-top: 10px;
+    height: 60px;
+    width: 160px;
+    border: none;
+    border-radius: 30px;
+    background: #1F1F1F;
+    color: white;
+}
+
+.custom-input {
+    border: none;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+.header-2 {
+    font-family: "Poppins";
+    padding: 0%;
+    padding: 80px 0px 0px;
+    text-align: center;
+}
+
+.header-2 h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.header-2 h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: black;
+    margin: 0%;
+}
+
+.header-3 {
+    padding: 60px 0px;
+}
+
+.box-1 {
+
+    text-align: center;
+    padding: 0%;
+    padding: 0px 20px;
+    /* border-left: 2px solid #a9a8a8;
+    border-right: 2px solid #a9a8a8; */
+}
+
+.box-2 {
+    text-align: center;
+    padding: 0%;
+    padding: 0px 20px;
+    /* border-left: 2px solid #a9a8a8;
+    border-right: 2px solid #a9a8a8; */
+}
+
+.box-3 {
+    text-align: center;
+    padding: 0%;
+    padding: 0px 20px;
+    /* border-left: 2px solid #a9a8a8;
+    border-right: 2px solid #a9a8a8; */
+}
+
+.crew-2 h2 {
+    font-family: "Poppins";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: black;
+    margin-top: 20px;
+}
+
+/* header-3 */
+.header-4 {
+    padding: 0%;
+    padding: 60px 0px 0px;
+    justify-content: space-between;
+}
+
+.text-1 {
+    font-family: "Poppins";
+    padding: 0%;
+    /* text-align: center; */
+}
+
+.img-2 {
+    /* text-align: right; */
+    padding-top: 35px;
+}
+
+.header-4 h5 {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.header-4 h1 {
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: black;
+    margin: 0%;
+    /* padding-top: 50px; */
+}
+
+/* .header-5 */
+/* .box-4{
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%) !important;
+} */
+.header-5 {
+    padding-top: 50px;
+}
+
+.box-4 img {
+    width: 100%;
+    /* height: 250px; */
+    object-fit: cover;
+}
+
+.box-5 img {
+    width: 100%;
+    /* height: 250px; */
+    object-fit: cover;
+}
+
+.box-6 img {
+    width: 100%;
+    /* height: 250px; */
+    object-fit: cover;
+}
+
+.box-4 {
+    padding-left: 0%;
+}
+
+.box-6 {
+    padding-right: 0%;
+}
+
+/* header-6 */
+
+.crew-4 {
+    padding: 0%;
+    padding: 60px 0px 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-2 h1 {
+    font-family: "poppins";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: black;
+    margin: 0%;
+    /* padding-top: 50px; */
+}
+
+
+.text-3 h1 {
+    font-family: "Poppins";
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+}
+
+.text-3 h5 {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+.but-1{
+    padding-top: 40px;
+}
+.but-1 button{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+}
+.four{
+    background-color: black;
+    color: white;
+}
+.five{
+    background-color: white;
+    color: black;
+    border: 1px solid #BEBEBE;
+    margin-left: 30px;
+}
+.head-1{
+    justify-content: space-between;
+    padding-top: 80px;
+    text-align: left;
+}
+.head-1 h1{
+    font-size: 80px;
+    color: black;
+    /* font-weight: bolder !important; */
+}
+.box-7 h1{
+    font-weight: 1000 !important;
+}
+.head-1 h5{
+    /* font-size: 80px; */
+    color: black;
+    padding-top: 20px;
+    padding-left: 7px;
+    /* font-weight: bolder !important; */
+}
+.crew-5{
+    padding: 60px 0px;
+    justify-content: space-between;
+}
+/* .head-2{
+    justify-content: space-between ;
+} */
+.img-3 img{
+    width: 100%;
+}
+.crew-6{
+        justify-content: space-between;
+        font-family: "Poppins";
+        height: 440px;
+        margin-top: 30px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%) !important;
+}
+.text-4{
+    padding: 40px 0px 0px 30px;
+}
+.text-4 h1{
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
+}
+.paragraph{
+    padding: 15px 0px 20px 0px;
+    font-size: 18px;
+}
+.text-4 .custom-input{
+    width: 70%;
+}
+.input-1{
+    position: relative;
+    width: 70%;
+}
+.custom-input-1{
+    border: none;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+    .but-2{
+        /* padding: 0%; */
+        width: 35%;
+        position: absolute;
+        right: 0%;
+    }
+.but-2 button{
+    margin-top: 10px;
+    border: none;
+    width: 100%;
+    height: 60px;
+    padding: 0%;
+    border-radius: 30px;
+    /* padding-left: 25px; */
+    margin-top: 10px;
+    background: #1F1F1F;
+    color: white;
+}
+.crew-6{
+    height: 360px;
+}
+@media only screen and (max-width: 1198px) {
+
+    /* .one{
+        padding: 0%;
+    }
+    .list{
+        margin-left: 80px;
+    } */
+    .list {
+        display: none;
+    }
+
+    .one {
+        display: none;
+    }
+
+    .two {
+        display: none;
+    }
+
+    .navbar-icon {
+        display: block;
+    }
+
+    .crew-1 {
+        height: 400px !important;
+    }
+
+    .but-1{
+        padding: 0%;
+        padding-top: 20px;
+    }
+    .head-1 h1{
+        font-size: 60px;
+    }
+    .head-1{
+        padding: 0%;
+        padding-top: 45px;
+    }
+    .head-1 h5{
+        padding-top: 0%;
+        padding-top: 10px;
+    }
+    .text-4{
+        padding: 20px 0px 0px 20px;
+    }
+    .text-4 h1{
+        font-size: 40px;
+    }
+    .crew-6{
+        height: 300px;
+    }
+    .paragraph{
+        margin: 0%;
+        padding: 0%;
+        padding: 15px 0px;
+    }
+}
+
+@media only screen and (max-width: 1398px) {
+    .crew-1 {
+        height: 470px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .crew-1 {
+        height: 900px !important;
+        padding: 0px 30px;
+    }
+
+    .text {
+        padding: 0%;
+        text-align: center;
+        /* padding: 0px 30px; */
+    }
+
+    .text h4 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .img-1 {
+        width: 100%;
+        padding: 0%;
+
+    }
+
+    .img-1 img {
+        width: 100%;
+        top: -250px;
+        /* padding: 0px 30px; */
+        /* left: auto;
+        right: auto; */
+    }
+    .img-3 img{
+        padding-top: 60px;
+    }
+    .crew-6 {
+        height: 900px !important;
+        padding: 30px 30px;
+    }
+    .text-4{
+        text-align: center;
+    }
+    .input-1{
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .text-4 h1{
+        padding: 0%;
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .crew-1 {
+        height: 800px !important;
+    }
+
+    .img-1 img {
+        top: -180px;
+    }
+
+    .box-4 {
+        padding: 0%;
+    }
+
+    .box-5 {
+        padding: 0%;
+    }
+
+    .box-6 {
+        padding: 0%;
+    }
+
+    /* .box-4{
+        padding-top: 50px;
+    } */
+    .box-5 {
+        padding-top: 50px;
+    }
+
+    .box-6 {
+        padding-top: 50px;
+    }
+
+    .text-2 h1 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .crew-1 {
+        height: 750px !important;
+    }
+
+    .input {
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .crew-1 {
+        height: 800px !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .box-2 {
+        padding: 50px 0px;
+    }
+}
